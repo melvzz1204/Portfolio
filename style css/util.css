@@ -1,0 +1,78 @@
+/* xs size */
+/* @media (min-width: 475px) {
+   
+} */
+
+
+/* small size */
+/* @media (min-width: 640px){
+
+}
+ */
+
+/* medium size */
+/* @media (min-width: 768px) {
+    
+}
+ */
+
+/* large size */
+/* @media (min-width: 1024px) {
+
+}
+ */
+
+/* XL size */
+/* @media (min-width: 1280) {
+   
+} */
+
+
+/* 2XL size */
+/* @media (min-width: 1536px) {
+    
+}
+ */
+.btn {
+
+    padding: 0.5em 1em;
+    display: inline-block;
+    font-family: 500px;
+    text-decoration: none;
+    letter-spacing: 0.07em;
+    background-color: var(--clr-gold);
+    color:#ffffff;
+    border-radius: 6px;
+    box-shadow:  0 10px 20px rgb(225, 29, 72, 0.5), 0  5px 4px  rgb(225, 29, 72, 0.5)
+    ,0 0 100px -10px  var(--clr-gold);
+    font-weight: 500;
+    transition: transform 0.10s, box-shadow 0.10s;
+}
+.btn:hover{
+
+    transform: translatex(-2px);
+    box-shadow:  0 0 2px 2px rgb(225, 29, 72, 0.1), 0 0 2px 2px  rgb(225, 29, 72, 0.5)
+    ,0 0 150px -10px  var(--clr-gold);
+
+}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.section {
+
+    margin-top: 5rem;
+}
+.loading {
+
+    filter: blur(40px) grayscale(100%);
+}
+.loaded {
+
+    filter: blur(0) grayscale(0);
+    transition: 0.5s ease-in-out;
+}
+
