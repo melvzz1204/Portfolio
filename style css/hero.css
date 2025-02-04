@@ -1,8 +1,10 @@
 .hero__img {
   display: inline;
-  border-radius: 100%;
-  width: 250px;
-  object-fit: contain;
+  border-radius: 50%;
+  width: 200px;
+  height: 12rem;
+  object-fit: cover;
+  background-color: aliceblue;
 }
 .hero {
   display: flex;
